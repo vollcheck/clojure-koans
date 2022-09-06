@@ -23,7 +23,7 @@
           [:a :b :c]))
 
   "In others your alternative may be interesting"
-  (= :glory (if (not (empty? ()))
+  (= :glory (if (seq ())
               :doom
               __))
 
